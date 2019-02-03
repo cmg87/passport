@@ -1,0 +1,13 @@
+build out tree structure front-end
+* build the root tree
+* build the buttons for generating the factories
+* build the modal that contains limits to set and naming of factory
+* have each factory have a react component for each "file" it generates from 1-15
+
+building the server backend api
+* set up express server
+* get middleware bodyparser to handle json and express validator to validate input from user
+* set up websocket to have it communicate live without page reload or pinging
+
+functions needed
+* generate random files numbers

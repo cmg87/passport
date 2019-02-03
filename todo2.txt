@@ -1,0 +1,19 @@
+i need to figure out the object/array whatever json im getting back from the schema. 
+
+pass in each fucking thing to the factory just the name and display
+that as a file
+
+then while passing in the filename call the child function to just
+use those numbers and map that to the children nodes tree
+
+once i get that done setup a state if this particular factory is clicked
+display those children
+
+also setup a button to generate new factories and a button next to them 
+to edit the factory and a button to reset everything
+
+once thats done i gotta figure out how to use SSE or websockets
+
+AAANNNDD DONE!
+
+
