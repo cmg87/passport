@@ -6,19 +6,19 @@ export default {
       name: data.name,
       children: data.children
     };
-    return axios.post("http://localhost:3000/api/createFactory", body);
+    return axios.post("/api/createFactory", body);
   },
 
-  getFactory: () => axios.get("http://localhost:3000/api/getFactory"),
+  getFactory: () => axios.get("/api/getFactory"),
 
   deleteFactory: data => {
     let body = {
       id: data.id
     };
-    axios.delete("http://localhost:3000/api/deleteFactory", body);
+    axios.delete("/api/deleteFactory", body);
   },
 
   deleteAll: data => {
-    axios.delete("http://localhost:3000/api/deleteAll");
+    axios.delete("/api/deleteAll");
   }
 };
